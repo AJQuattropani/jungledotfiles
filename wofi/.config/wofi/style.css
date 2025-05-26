@@ -36,8 +36,8 @@
 window {
   margin: 0px;
   padding: 10px;
-  border: 2px solid @crust;
-  border-radius: 8px;
+  border: 1px solid @crust;
+  border-radius: 2px;
   background-color: @base;
 }
 
@@ -77,7 +77,7 @@ window {
 
 #input image {
     border: none;
-    color: @red;
+    color: @text;
 }
 
 #input * {
@@ -106,7 +106,7 @@ window {
 }
 
 #entry:selected #text {
-  color: @mauve;
+  color: @green;
 }
 
 #entry:drop(active) {
