@@ -13,7 +13,6 @@ window#waybar {
     color: @overlay0;
     transition-property: background-color;
     transition-duration: 0.1s;
-    border-bottom: 1px solid @overlay1;
 }
 
 #window {
@@ -30,8 +29,8 @@ button {
 
 button:hover {
     background: inherit;
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @text;
+    border-top: 2px solid @green;
 }
 
 #workspaces button {
@@ -40,14 +39,14 @@ button:hover {
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @rosewater;
-    border-top: 2px solid @rosewater;
+    color: @green;
+    border-top: 2px solid @green;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @green;
+    border-top: 2px solid @green;
 }
 
 #workspaces button.urgent {
@@ -76,23 +75,23 @@ button:hover {
 }
 
 #clock {
-    color: @maroon;
-    border-bottom: 2px solid @maroon;
+    color: @subtext0;
+    border-bottom: 2px solid @subtext0;
 }
 
 #clock.date {
-    color: @mauve;
-    border-bottom: 2px solid @mauve;
+    color: @subtext0;
+    border-bottom: 2px solid @subtext0;
 }
 
 #pulseaudio {
-    color: @blue;
-    border-bottom: 2px solid @blue;
+    color: @subtext0;
+    border-bottom: 2px solid @subtext0;
 }
 
 #network {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+    color: @subtext0;
+    border-bottom: 2px solid @subtext0;
 }
 
 #idle_inhibitor {
@@ -120,7 +119,7 @@ button:hover {
 }
 
 #custom-vpn {
-    color: @lavender;
+    color: @green;
     border-radius: 15px;
     padding-left: 6px;
     padding-right: 6px;
