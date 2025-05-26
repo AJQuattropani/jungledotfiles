@@ -8,7 +8,5 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 
 
 eval "$(tmuxifier init -)"
-
-
-
+eval "$(ssh-agent -s)"
 
