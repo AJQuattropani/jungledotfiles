@@ -26,6 +26,7 @@ return {
       lspconfig.marksman.setup({})
       lspconfig.glsl_analyzer.setup({})
       lspconfig.asm_lsp.setup({})
+      lspconfig.opencl_ls.setup({})
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
       vim.keymap.set('n', 'gr', vim.lsp.buf.references, {})
