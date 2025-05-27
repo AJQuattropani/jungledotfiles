@@ -5,8 +5,6 @@ export SUDO_EDITOR="$EDITOR"
 
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 
-
-
 eval "$(tmuxifier init -)"
-#eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)" > /dev/null
 
