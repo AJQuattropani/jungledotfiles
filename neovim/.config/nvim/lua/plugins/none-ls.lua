@@ -14,10 +14,11 @@ return {
 				null_ls.builtins.formatting.clang_format,
 
 				null_ls.builtins.diagnostics.cmake_lint,
-				require("none-ls.diagnostics.cpplint"),
+				--require("none-ls.diagnostics.cpplint"),
 				null_ls.builtins.diagnostics.mypy,
 			},
 		})
+		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 		vim.keymap.set("n", "<leader>K", vim.lsp.buf.hover, {})
 		vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
