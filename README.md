@@ -24,8 +24,10 @@ starship
 
 ## Git Commands
 Tmux:
-git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+Tmuxifier:
+git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 
 Kitty:
 git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
