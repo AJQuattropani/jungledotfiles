@@ -1,3 +1,7 @@
+# Jungle
+Green themed config for arch with hyprland.
+![Picture of desktop with configuration.](https://github.com/AJQuattropani/jungledotfiles/examples/twinmonitors.png)
+
 ## Packages:
 tmux
 neovim
@@ -14,16 +18,11 @@ hyprlock
 hyprpaper
 starship
 
-## System theming is modified version of AlienBlood provided by https://github.com/dexpota/kitty-themes.git
-by Dexpota, MIT License
-Copyright (c) 2019 Fabrizio Destro fabrizio@destro.dev
-
-## This config borrows some source code from TypecraftDev, https://github.com/typecraft-dev/dotfiles as well as his online tutorials. Thank you to him.
-
-## Starship theming is inspired from starship.rs - Tokyo Night Preset - using AlienBlood coloring.
+- System theming is modified version of AlienBlood provided by https://github.com/dexpota/kitty-themes.git by Dexpota, MIT License Copyright (c) 2019 Fabrizio Destro fabrizio@destro.dev
+- This config borrows some source code from TypecraftDev, https://github.com/typecraft-dev/dotfiles as well as his online tutorials. Thank you to him.
+- Starship theming is inspired from starship.rs - Tokyo Night Preset - using AlienBlood coloring.
 
 ## Git Commands
-
 Tmux:
 git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
@@ -37,3 +36,9 @@ wget "$THEME" -P ~/.config/kitty/kitty-themes/themes
 Zshell:
 if .zshrc or .bashrc
 export PATH="$HOME/.tmuxifier/bin:$PATH"
+
+Ohmyzsh:
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/jeffreytse/zsh-vi-mode \
+  $ZSH_CUSTOM/plugins/zsh-vi-mode
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
