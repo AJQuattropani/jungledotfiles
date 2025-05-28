@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-       --ensure_installed = { "lua_ls", "neocmake", "clangd", "julials", "marksman", "glsl_analyzer", "asm_lsp"}
+        --ensure_installed = { "lua_ls", "neocmake", "clangd", "julials", "marksman", "glsl_analyzer", "asm_lsp"}
         auto_install = true
       })
     end
@@ -27,10 +27,6 @@ return {
       lspconfig.glsl_analyzer.setup({})
       lspconfig.asm_lsp.setup({})
       lspconfig.opencl_ls.setup({})
-      vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-      vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-      vim.keymap.set('n', 'gr', vim.lsp.buf.references, {})
-      vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
     end
   }
 }
