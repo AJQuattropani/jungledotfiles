@@ -1,6 +1,6 @@
 # Jungle
 Green themed config for arch with hyprland.
-![Picture of desktop with configuration.](https://github.com/AJQuattropani/jungledotfiles/examples/twinmonitors.png)
+![Picture of desktop with configuration.](examples/twinmonitors.png)
 
 ## Packages:
 tmux
