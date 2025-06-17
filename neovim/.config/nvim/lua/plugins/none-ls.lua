@@ -33,5 +33,6 @@ return {
 		vim.keymap.set("n", "<leader>gr", require('telescope.builtin').lsp_references, {})
 		vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
 		vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {})
+		vim.keymap.set("n", "<leader>?", vim.diagnostic.open_float, {})
 	end,
 }

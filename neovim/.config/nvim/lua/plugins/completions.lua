@@ -78,7 +78,14 @@ return {
         capabilities = capabilities
       })
       lspconfig.clangd.setup({
-        capabilities = capabilities
+        capabilities = capabilities,
+        style = "_clang-format",
+        on_attach = function()
+          --vim.keymap.set("n", "<leader>32", )
+        end,
+        on_detach = function()
+
+        end,
       })
       lspconfig.lua_ls.setup({
         capabilities = capabilities
