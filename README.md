@@ -1,5 +1,5 @@
 # Jungle
-Green themed config for arch with hyprland.
+Manual config files for debian and KDE.
 ![Picture of desktop with configuration.](examples/twinmonitors.png)
 
 ## Packages:
